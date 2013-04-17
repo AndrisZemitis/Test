@@ -271,7 +271,7 @@ while ($m = mysql_fetch_array($r))
 						echo "<p>Pārbaude: [Brutto - Netto1+Netto2+virsmers == 0]: ".$parbaude."</p>";
 						}
 			}
-		error_log("Error", 3, "myPHP-error.log");
+		//error_log("Error", 3, "myPHP-error.log");
 		mysql_query ($sql_query);
 	/*VECAIS KODS 17.04.2013 - Andris Zemitis*/
 	//*****************************************
