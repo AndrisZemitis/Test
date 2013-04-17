@@ -131,9 +131,152 @@ while ($m = mysql_fetch_array($r))
       mysql_query ("insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, import_type,import_id) select $pavadzime, '', '".sqltime(convert_time2($m['ts']))."', ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$tievgala_caurmers."-rc*10, gr-(rg*10), ".$vidus_caurmers.", '$brakis', ".$resgala_caurmers.", '', 0, 0,'zbm',".$m['id']." from fails_zbm_ui where id = ".$m['id']);
   //		mysql_query ("insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, import_type,import_id) select $pavadzime, '', '".sqltime(convert_time2($m['ts']))."', ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$tievgala_caurmers."-rc, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'zbm',".$m['id']." from fails_zbm_ui where id = ".$m['id']);
     }else {
-      mysql_query ("insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, skira_2, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, brakis2, import_type,import_id) select $pavadzime, '', '".sqltime(convert_time2($m['ts']))."', ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$skira2.",".$tievgala_caurmers."-rc*10, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'$brakis2','zbm',".$m['id']." from fails_zbm_ui where id = ".$m['id']);
-  //		mysql_query ("insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, import_type,import_id) select $pavadzime, '', '".sqltime(convert_time2($m['ts']))."', ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$tievgala_caurmers."-rc, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'zbm',".$m['id']." from fails_zbm_ui where id = ".$m['id']);
-    }
+	//Izmaiņas kodā, lai realizētu jaunajās Kurzemes Finiera prasības par izdalītiem īskluču tilpumiem.
+	//Šeit tiks aprēķināti īskluču tilpumi un baļķa virsmērs. Tie tiks ievietoti tabulā "balkis"  - kolonnas "1_cilindra_tilpums", "2_cilindra_tilpums" un "virsmers"
+			//Sagatavojam mainigos
+				$debug =0;
+				$balkaGarums = $balkaGarums/100;//dalam ar 100, lai mērvienība būtu metrs
+				$tievgala_caurmers = $tievgala_caurmers/10;  //lai no milimetriem iegūtu centimetrus
+				$balkaTilpums=0.0;
+				$sql_query = "";
+				$mySkira = $skira;
+				$mySkira2 = $skira2;
+				//Ja balkis ieklaujas garuma robezzaas
+				if($balkaGarums >= 2.70 )
+				{
+					if($balkaGarums > 3.2)
+					{
+						$mySkira =9;
+						$mySkira2 =9;
+					}
+					//Balka tilpuma aprekins
+					//Balka tilpuma aprekins
+					$balkaNetoGarums = 2.7;
+					$balkaNetoTilpums = (pi() * ((pow($tievgala_caurmers,2) + pow($tievgala_caurmers + ($raukums * $balkaNetoGarums),2)) * $balkaNetoGarums))/(4 * 2 * 10000);//tilpums kubikmetros
+					$balkaBrutoTilpums = (pi() * ((pow($tievgala_caurmers,2) + pow($tievgala_caurmers + ($raukums * $balkaGarums),2)) * $balkaGarums))/(4 * 2 * 10000);//tilpums kubikmetros
+
+					$pirmaCilindraTilpums= round(($balkaNetoTilpums/2)*1000,0,PHP_ROUND_HALF_DOWN);//reizinam ar 1000, lai tiktu pie kubikdecimetriem
+					$otraCilindraNetoTilpums= round(($balkaNetoTilpums*1000 - $pirmaCilindraTilpums),0); //reizinam ar 1000, lai tiktu pie kubikdecimetriem
+					$virsmers = ($balkaBrutoTilpums - $balkaNetoTilpums)*1000;//reizinam ar 1000, lai tiktu pie kubikdecimetriem
+					//Paareekkinam virsmeeru uz kubikdecimetriem un noapallojam, lai nebuutu komati.
+					$virsmers = round($virsmers,0,PHP_ROUND_HALF_DOWN);
+					$tievgala_caurmers=$tievgala_caurmers*10; //lai dabūtu atpakaļ dabubāzē izmantoto standartu
+					
+					$sql_query = "insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, skira_2, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, brakis2, import_type,import_id,1_cilindra_tilpums, 2_cilindra_tilpums, virsmers) select $pavadzime, '', ".sqltime(convert_time2($m['ts'])).",                       ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$skira2.",".$tievgala_caurmers."-rc*10, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'$brakis2','zbm',".$m['id'].",".$pirmaCilindraTilpums .",".$otraCilindraNetoTilpums.", $virsmers from fails_zbm_ui where id = ".$m['id'];
+					if($debug==1)
+					{
+						$skira2Vardos = "labs";
+						$skira1Vardos = "labs";
+						if($mySkira==9)$skira1Vardos="brāķis";
+						if($mySkira2==9)$skira2Vardos="brāķis";
+						
+						echo "<p>Balka garums ir: ".$balkaGarums." m</p>"; 
+						echo "<p>Balka tievgala caurmers  ir: ".$tievgala_caurmers." cm</p>"; 
+						echo "<p>Balka bruto tilpums ir: ".$balkaBrutoTilpums." cbm</p>"; 
+						echo "<p>Balka neto tilpums ir: ".$balkaNetoTilpums." cbm</p>"; 
+						echo "<p>Balka Neto tilpums C1(".$skira1Vardos."):".$pirmaCilindraTilpums." kubikdecimetri</p>";
+						echo "<p>Balka Neto tilpums C2(".$skira2Vardos."):".$otraCilindraNetoTilpums." kubikdecimetri</p>";
+						echo "<p>Virsmers:".$virsmers." kubikdecimetri</p>";
+						echo "<p><b>SQL Query:".$sql_query."</b></p>";
+						$parbaude = round($balkaBrutoTilpums*1000 - $pirmaCilindraTilpums - $otraCilindraNetoTilpums - $virsmers, 0);
+						echo "<p>Pārbaude: [Brutto - Netto1+Netto2+virsmers == 0]: ".$parbaude."</p>";
+					}
+				}//Ja balkkis zem 2.7m garuma, tad apreekkinam Bruto tilpumu un neto tilpumu piesskkiram ar attieciibu - ballkkis/135cm
+				else if ($balkaGarums < 2.7 && $balkaGarums >= 1.35)
+				{	
+						if($balkaGarums < 1.6)
+						{
+							$mySkira =9;
+							$mySkira2 =9;
+						}
+						//Aprēķinam renā gala kluča, tievā gala caurmēru:
+						//Griezuma vieta ir "baļķa garums" - 135
+						$resnaKlucaGarums = 1.35;//metros
+						$isaGalaGarums = $balkaGarums - $resnaKlucaGarums;
+						$otraCilindra_caurmers = $tievgala_caurmers + $isaGalaGarums*$raukums;
+
+						$otraCilindraNetoTilpums = (3.1416 * ((pow($otraCilindra_caurmers,2) + pow($otraCilindra_caurmers + ($raukums * $resnaKlucaGarums),2)) * $resnaKlucaGarums))/(4 * 2 * 10000);//tilpums kubikmetros
+
+						$balkaBrutoTilpums = (pi() * ((pow($tievgala_caurmers,2) + pow($tievgala_caurmers + ($raukums * $balkaGarums),2)) * $balkaGarums))/(4 * 2 * 10000);//tilpums kubikmetros
+						$pirmaCilindraTilpums = $balkaBrutoTilpums - $otraCilindraNetoTilpums;
+						$pirmaCilindraTilpums = round($pirmaCilindraTilpums *1000,0,PHP_ROUND_HALF_DOWN); //pārrēķinam uz kubikdecimetriem
+						$otraCilindraNetoTilpums = round($otraCilindraNetoTilpums*1000,0,PHP_ROUND_HALF_DOWN); 
+						$virsmers = 0;
+						//Ja garums ir 1.6-2.7m
+						//Ja mērnieks kluci ir novērtējis bez brāķa, tad tievgaļa pārpalikums ir brāķis.
+							if($mySkira != 9 && $mySkira2 != 9)
+							{
+								$mySkira = 9;
+							}//Ja mērnieks resno galu ir novērtējis kā brāķi, tad automātiski arī tievais gals ir brāķis.
+							else if ($mySkira2 == 9 )
+							{
+								$mySkira = 9;
+							}
+						//Ja garums ir zem 1.6m tad abi brāķi
+							if($balkaGarums < 1.6)
+							{
+								$mySkira =9;
+								$mySkira2 =9;
+							}
+						$tievgala_caurmers=$tievgala_caurmers*10; //lai dabūtu atpakaļ dabubāzē izmantoto standartu
+						$sql_query = "insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, skira_2, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, brakis2, import_type,import_id, 1_cilindra_tilpums, 2_cilindra_tilpums, virsmers) select $pavadzime, '', ".sqltime(convert_time2($m['ts'])).",                       ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$skira2.",".$tievgala_caurmers."-rc*10, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'$brakis2','zbm',".$m['id'].",".$pirmaCilindraTilpums.",".$otraCilindraNetoTilpums.", $virsmers from fails_zbm_ui where id = ".$m['id'];
+				
+						if($debug==1)
+						{
+							$skira2Vardos = "labs";
+							$skira1Vardos = "labs";
+							if($mySkira==9)$skira1Vardos="brāķis";
+							if($mySkira2==9)$skira2Vardos="brāķis";
+							
+							echo "<p>Balka garums ir: ".$balkaGarums." m</p>"; 
+							echo "<p>Balka tievgala caurmers  ir: ".$tievgala_caurmers." cm</p>"; 
+							echo "<p>Balka bruto tilpums ir: ".$balkaBrutoTilpums." cbm</p>"; 
+							echo "<p>Balka neto tilpums ir: nav aprēķināms jo garums zem 2.7m cbm</p>"; 
+							echo "<p>Balka Neto tilpums C1(".$skira1Vardos."):".$pirmaCilindraTilpums." kubikdecimetri</p>";
+							echo "<p>Balka Neto tilpums C2(".$skira2Vardos."):".$otraCilindraNetoTilpums." kubikdecimetri</p>";
+							echo "<p>Virsmers:".$virsmers." kubikdecimetri</p>";
+							echo "<p><b>SQL Query:".$sql_query."</b></p>";
+							$parbaude = round($balkaBrutoTilpums*1000 - $pirmaCilindraTilpums - $otraCilindraNetoTilpums - $virsmers, 0);
+							echo "<p>Pārbaude: [Brutto - Netto1+Netto2+virsmers == 0]: ".$parbaude."</p>";
+						}
+				}
+				else //Baļķa garums ir zem 1.35
+				{	
+						$mySkira =9;
+						$mySkira2 =9;
+						$balkaBrutoTilpums = (pi() * ((pow($tievgala_caurmers,2) + pow($tievgala_caurmers + ($raukums * $balkaGarums),2)) * $balkaGarums))/(4 * 2 * 10000);//tilpums kubikmetros
+						$pirmaCilindraTilpums = $balkaBrutoTilpums;
+						$pirmaCilindraTilpums = round($pirmaCilindraTilpums *1000,0,PHP_ROUND_HALF_DOWN); //pārrēķinam uz kubikdecimetriem
+						$otraCilindraNetoTilpums = 0; 
+						$virsmers = 0;
+						$tievgala_caurmers=$tievgala_caurmers*10; //lai dabūtu atpakaļ dabubāzē izmantoto standartu
+						$sql_query = "insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums,  suga, skira, miza, skira_2, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, brakis2, import_type,import_id, 1_cilindra_tilpums, 2_cilindra_tilpums, virsmers) select $pavadzime, '', ".sqltime(convert_time2($m['ts'])).",                       ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$skira2.",".$tievgala_caurmers."-rc*10, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'$brakis2','zbm',".$m['id'].",".$pirmaCilindraTilpums.",".$otraCilindraNetoTilpums.", $virsmers from fails_zbm_ui where id = ".$m['id'];
+				
+						if($debug==1)
+						{
+							$skira2Vardos = "labs";
+						$skira1Vardos = "labs";
+						if($mySkira==9)$skira1Vardos="brāķis";
+						if($mySkira2==9)$skira2Vardos="brāķis";
+						
+						echo "<p>Balka garums ir: ".$balkaGarums." m</p>"; 
+						echo "<p>Balka tievgala caurmers  ir: ".$tievgala_caurmers." cm</p>"; 
+						echo "<p>Balka bruto tilpums ir: ".$balkaBrutoTilpums." cbm</p>"; 
+						echo "<p>Balka neto tilpums ir: nav aprēķināms jo garums zem 2.7m cbm</p>"; 
+						echo "<p>Balka Neto tilpums C1(".$skira1Vardos."):".$pirmaCilindraTilpums." kubikdecimetri</p>";
+						echo "<p>Balka Neto tilpums C2(".$skira2Vardos."):".$otraCilindraNetoTilpums." kubikdecimetri</p>";
+						echo "<p>Virsmers:".$virsmers." kubikdecimetri</p>";
+						echo "<p><b>SQL Query:".$sql_query."</b></p>";
+						$parbaude = round($balkaBrutoTilpums*1000 - $pirmaCilindraTilpums - $otraCilindraNetoTilpums - $virsmers, 0);
+						echo "<p>Pārbaude: [Brutto - Netto1+Netto2+virsmers == 0]: ".$parbaude."</p>";
+						}
+			}
+		mysql_query ($sql_query)
+	/*VECAIS KODS 17.04.2013 - Andris Zemitis*/
+	//*****************************************
+	//	mysql_query ("insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, skira_2, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, brakis2, import_type,import_id) select $pavadzime, '', '".sqltime(convert_time2($m['ts']))."', ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$skira2.",".$tievgala_caurmers."-rc*10, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'$brakis2','zbm',".$m['id']." from fails_zbm_ui where id = ".$m['id']);
+	//	//		mysql_query ("insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, import_type,import_id) select $pavadzime, '', '".sqltime(convert_time2($m['ts']))."', ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$tievgala_caurmers."-rc, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'zbm',".$m['id']." from fails_zbm_ui where id = ".$m['id']);
+        }
 
 
 		// dabonam jauno id
