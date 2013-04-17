@@ -1,0 +1,2567 @@
+<!-- Created with Liquid XML Studio - FREE Community Edition 7.1.1.1206 (http://www.liquid-technologies.com) -->
+<vmffile>
+	<type>ZBM</type>
+	<zbm>
+		<header>
+			<pasutitajs>92</pasutitajs>
+			<viet_kods>6315</viet_kods>
+			<kontrolmernieks>19</kontrolmernieks>
+			<pasnr>3004.05</pasnr>
+			<pas_nos>TEZEI S</pas_nos>
+			<pavaddok>AEP434199</pavaddok>
+			<autonr>FB666</autonr>
+			<piekabnr>M9436</piekabnr>
+			<sofer>DZINTARS PUCE</sofer>
+			<me>19</me>
+		</header>
+		<started>01.05.2009 00:24:22</started>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:23:27</ts>
+			<te>01/05/2009 01:29:12</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>300</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:29:12</ts>
+			<te>01/05/2009 01:29:43</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:29:43</ts>
+			<te>01/05/2009 01:30:01</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:30:01</ts>
+			<te>01/05/2009 01:30:14</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:30:14</ts>
+			<te>01/05/2009 01:30:28</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>307</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>9</sk>
+			<im>4</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:30:28</ts>
+			<te>01/05/2009 01:31:26</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>320</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000034</kb>
+			<ts>01/05/2009 01:31:26</ts>
+			<te>01/05/2009 01:33:09</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:33:09</ts>
+			<te>01/05/2009 01:35:37</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:35:37</ts>
+			<te>01/05/2009 01:35:51</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:35:51</ts>
+			<te>01/05/2009 01:36:07</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>280</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:36:07</ts>
+			<te>01/05/2009 01:36:22</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>280</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:36:22</ts>
+			<te>01/05/2009 01:36:34</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>309</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:36:34</ts>
+			<te>01/05/2009 01:36:52</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:36:52</ts>
+			<te>01/05/2009 01:37:06</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:37:06</ts>
+			<te>01/05/2009 01:37:25</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:37:25</ts>
+			<te>01/05/2009 01:37:37</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:37:37</ts>
+			<te>01/05/2009 01:37:54</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:37:54</ts>
+			<te>01/05/2009 01:38:00</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>380</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000035</kb>
+			<ts>01/05/2009 01:38:00</ts>
+			<te>01/05/2009 01:38:21</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:38:21</ts>
+			<te>01/05/2009 01:39:04</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:39:04</ts>
+			<te>01/05/2009 01:39:15</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>440</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:39:15</ts>
+			<te>01/05/2009 01:39:58</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>360</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:39:58</ts>
+			<te>01/05/2009 01:40:10</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>400</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:40:10</ts>
+			<te>01/05/2009 01:40:32</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>311</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:40:32</ts>
+			<te>01/05/2009 01:40:53</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:40:53</ts>
+			<te>01/05/2009 01:41:03</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:41:03</ts>
+			<te>01/05/2009 01:42:03</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>440</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:42:03</ts>
+			<te>01/05/2009 01:42:20</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>370</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:42:20</ts>
+			<te>01/05/2009 01:42:43</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:42:43</ts>
+			<te>01/05/2009 01:42:58</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:42:58</ts>
+			<te>01/05/2009 01:43:09</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>360</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:43:09</ts>
+			<te>01/05/2009 01:43:23</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:43:23</ts>
+			<te>01/05/2009 01:43:42</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>370</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:43:42</ts>
+			<te>01/05/2009 01:44:00</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:44:00</ts>
+			<te>01/05/2009 01:44:15</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:44:15</ts>
+			<te>01/05/2009 01:44:30</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>270</tc>
+			<gr>307</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>4</sk>
+			<im>4</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:44:30</ts>
+			<te>01/05/2009 01:45:16</te>
+			<anuled>1</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>270</tc>
+			<gr>307</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>9</sk>
+			<im>4</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:45:16</ts>
+			<te>01/05/2009 01:45:35</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:45:35</ts>
+			<te>01/05/2009 01:45:47</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:45:47</ts>
+			<te>01/05/2009 01:45:55</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>390</tc>
+			<gr>320</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:45:55</ts>
+			<te>01/05/2009 01:46:13</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:46:13</ts>
+			<te>01/05/2009 01:46:22</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:46:22</ts>
+			<te>01/05/2009 01:46:47</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:46:47</ts>
+			<te>01/05/2009 01:47:00</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>4</sk>
+			<im>6</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:47:00</ts>
+			<te>01/05/2009 01:47:20</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>380</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:47:20</ts>
+			<te>01/05/2009 01:47:36</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>370</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000036</kb>
+			<ts>01/05/2009 01:47:36</ts>
+			<te>01/05/2009 01:47:49</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:47:49</ts>
+			<te>01/05/2009 01:48:00</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:48:00</ts>
+			<te>01/05/2009 01:48:15</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:48:15</ts>
+			<te>01/05/2009 01:48:29</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>400</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:48:29</ts>
+			<te>01/05/2009 01:48:52</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:48:52</ts>
+			<te>01/05/2009 01:49:04</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:49:04</ts>
+			<te>01/05/2009 01:49:21</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:49:21</ts>
+			<te>01/05/2009 01:49:32</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:49:32</ts>
+			<te>01/05/2009 01:49:45</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>312</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:49:45</ts>
+			<te>01/05/2009 01:50:00</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>300</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:50:00</ts>
+			<te>01/05/2009 01:50:11</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:50:11</ts>
+			<te>01/05/2009 01:50:27</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>400</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:50:27</ts>
+			<te>01/05/2009 01:50:42</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:50:42</ts>
+			<te>01/05/2009 01:50:59</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>4</sk>
+			<im>6</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:50:59</ts>
+			<te>01/05/2009 01:51:17</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:51:17</ts>
+			<te>01/05/2009 01:51:37</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000037</kb>
+			<ts>01/05/2009 01:51:37</ts>
+			<te>01/05/2009 01:52:01</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>360</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:52:01</ts>
+			<te>01/05/2009 01:52:06</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>270</tc>
+			<gr>312</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:52:06</ts>
+			<te>01/05/2009 01:52:22</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>313</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:52:22</ts>
+			<te>01/05/2009 01:52:38</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:52:38</ts>
+			<te>01/05/2009 01:52:46</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>300</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>9</sk>
+			<im>7</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:52:46</ts>
+			<te>01/05/2009 01:53:04</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:53:04</ts>
+			<te>01/05/2009 01:53:22</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>4</sk>
+			<im>4</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:53:22</ts>
+			<te>01/05/2009 01:53:37</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>313</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:53:37</ts>
+			<te>01/05/2009 01:53:50</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:53:50</ts>
+			<te>01/05/2009 01:54:04</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>270</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>4</sk>
+			<im>6</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:54:04</ts>
+			<te>01/05/2009 01:54:25</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:54:25</ts>
+			<te>01/05/2009 01:54:33</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:54:33</ts>
+			<te>01/05/2009 01:54:56</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>300</tc>
+			<gr>312</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:54:56</ts>
+			<te>01/05/2009 01:55:12</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:55:12</ts>
+			<te>01/05/2009 01:55:24</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>300</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:55:24</ts>
+			<te>01/05/2009 01:56:02</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>4</sk>
+			<im>6</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:56:02</ts>
+			<te>01/05/2009 01:56:24</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>380</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:56:24</ts>
+			<te>01/05/2009 01:56:44</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>360</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:56:44</ts>
+			<te>01/05/2009 01:57:02</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000038</kb>
+			<ts>01/05/2009 01:57:02</ts>
+			<te>01/05/2009 01:57:19</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:57:19</ts>
+			<te>01/05/2009 01:57:30</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>300</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:57:30</ts>
+			<te>01/05/2009 01:57:43</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:57:43</ts>
+			<te>01/05/2009 01:57:57</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:57:57</ts>
+			<te>01/05/2009 01:58:08</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>380</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:58:08</ts>
+			<te>01/05/2009 01:58:19</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:58:19</ts>
+			<te>01/05/2009 01:58:31</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:58:31</ts>
+			<te>01/05/2009 01:58:44</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:58:44</ts>
+			<te>01/05/2009 01:58:58</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:58:58</ts>
+			<te>01/05/2009 01:59:02</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>306</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:59:02</ts>
+			<te>01/05/2009 01:59:16</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>440</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>9</sk>
+			<im>4</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:59:16</ts>
+			<te>01/05/2009 01:59:42</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>290</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:59:42</ts>
+			<te>01/05/2009 01:59:58</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 01:59:58</ts>
+			<te>01/05/2009 02:00:12</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>311</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:00:12</ts>
+			<te>01/05/2009 02:00:19</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>321</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:00:19</ts>
+			<te>01/05/2009 02:00:38</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>360</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:00:38</ts>
+			<te>01/05/2009 02:00:58</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:00:58</ts>
+			<te>01/05/2009 02:01:08</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>300</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:01:08</ts>
+			<te>01/05/2009 02:01:25</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:01:25</ts>
+			<te>01/05/2009 02:01:30</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:01:30</ts>
+			<te>01/05/2009 02:01:46</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000039</kb>
+			<ts>01/05/2009 02:01:46</ts>
+			<te>01/05/2009 02:01:57</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:01:57</ts>
+			<te>01/05/2009 02:02:14</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:02:14</ts>
+			<te>01/05/2009 02:02:28</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:02:28</ts>
+			<te>01/05/2009 02:02:35</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000040</kb>
+			<ts>01/05/2009 02:02:35</ts>
+			<te>01/05/2009 02:02:54</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:02:54</ts>
+			<te>01/05/2009 02:03:07</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>319</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:03:07</ts>
+			<te>01/05/2009 02:03:22</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:03:22</ts>
+			<te>01/05/2009 02:03:30</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:03:30</ts>
+			<te>01/05/2009 02:03:37</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:03:37</ts>
+			<te>01/05/2009 02:03:51</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:03:51</ts>
+			<te>01/05/2009 02:04:02</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:04:02</ts>
+			<te>01/05/2009 02:04:16</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>340</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:04:16</ts>
+			<te>01/05/2009 02:04:27</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:04:27</ts>
+			<te>01/05/2009 02:04:40</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>380</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:04:40</ts>
+			<te>01/05/2009 02:04:54</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:04:54</ts>
+			<te>01/05/2009 02:05:05</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:05:05</ts>
+			<te>01/05/2009 02:05:27</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>380</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:05:27</ts>
+			<te>01/05/2009 02:05:45</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>315</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:05:45</ts>
+			<te>01/05/2009 02:05:54</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>410</tc>
+			<gr>314</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:05:54</ts>
+			<te>01/05/2009 02:06:09</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:06:09</ts>
+			<te>01/05/2009 02:06:20</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>280</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:06:20</ts>
+			<te>01/05/2009 02:06:33</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>380</tc>
+			<gr>320</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:06:33</ts>
+			<te>01/05/2009 02:06:49</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>370</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:06:49</ts>
+			<te>01/05/2009 02:06:56</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:06:56</ts>
+			<te>01/05/2009 02:07:08</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>000041</kb>
+			<ts>01/05/2009 02:07:08</ts>
+			<te>01/05/2009 02:07:25</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>303</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:07:25</ts>
+			<te>01/05/2009 02:07:32</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:07:32</ts>
+			<te>01/05/2009 02:07:42</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>310</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:07:42</ts>
+			<te>01/05/2009 02:07:59</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>350</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:07:59</ts>
+			<te>01/05/2009 02:08:15</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>330</tc>
+			<gr>318</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:08:15</ts>
+			<te>01/05/2009 02:08:27</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>317</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:08:27</ts>
+			<te>01/05/2009 02:08:41</te>
+			<anuled>0</anuled>
+		</iu>
+		<iu>
+			<sg>1</sg>
+			<tc>320</tc>
+			<gr>316</gr>
+			<rg>
+			</rg>
+			<rc>
+			</rc>
+			<sk>1</sk>
+			<im>
+			</im>
+			<pi>
+			</pi>
+			<kb>
+			</kb>
+			<ts>01/05/2009 02:08:41</ts>
+			<te>01/05/2009 02:08:54</te>
+			<anuled>0</anuled>
+		</iu>
+		<te>01.05.2009 02:09:09</te>
+	</zbm>
+</vmffile>

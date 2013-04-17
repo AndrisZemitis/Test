@@ -1,0 +1,129 @@
+
+					<html>
+					<table>
+						<tr bgcolor=#99FFCC>
+							<td>
+								Pakas nr
+							</td>
+							<td>
+								MÁrnieks
+							</td>
+							<td> 
+								Sortimenta kods
+							</td>
+							<td>
+								Suga
+							</td>
+							<td
+								Pakas uz masin
+							</td>
+							<td> 
+								Rezerves nr
+							</td>
+							<td> 
+								Augstums cm
+							</td>
+							<td> 
+								Garums cm
+							</td>
+							<td> 
+								Platums cm
+							</td>
+							<td> 
+								Tilpuma %
+							</td>
+							<td> 
+								Br‚Ìa kods
+							</td>
+							<td> 
+								Br‚Ìa %
+							</td>
+							<td> 
+								1.Sugas kods
+							</td>
+							<td> 
+								1.Œpatsv.%
+							</td>
+							<td> 
+								2.Sugas kods
+							</td>
+							<td> 
+								2.Œpatsv. %
+							</td>
+							<td> 
+								3.Sugas kods
+							</td>
+							<td> 
+								3.Œpatsv. %
+							</td>
+							<td> 
+								ts
+							</td>
+							<td> 
+								te
+							</td>
+						</tr>
+						<tr>
+							<td>
+								000000
+							</td>
+							<td>
+								13
+							</td>
+							<td> 
+								22
+							</td>
+							<td>
+								22
+							</td>
+							<td
+								22
+							</td>
+							<td> 
+								222
+							</td>
+							<td> 
+								222
+							</td>
+							<td> 
+								222
+							</td>
+							<td> 
+								222
+							</td>
+							<td> 
+								22
+							</td>
+							<td> 
+								2
+							</td>
+							<td> 
+								22
+							</td>
+							<td> 
+								22
+							</td>
+							<td> 
+								100
+							</td>
+							<td> 
+								NULL
+							</td>
+							<td> 
+								NULL
+							</td>
+							<td> 
+								NULL
+							</td>
+							<td> 
+								NULL
+							</td>
+							<td> 
+								30.11.2005 17:55:34
+							</td>
+							<td> 
+								30/11/2005 17:55:48
+							</td>
+						</tr>
+					</table>
+					</html>
