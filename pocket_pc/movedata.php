@@ -138,7 +138,7 @@ while ($m = mysql_fetch_array($r))
 	//Izmaiņas kodā, lai realizētu jaunas Kurzemes Finiera prasības par izdalītiem īskluču tilpumiem.
 	//Šeit tiks aprēķināti īskluču tilpumi un baļķa virsmērs. Tie tiks ievietoti tabulā "balkis"  - kolonnas "1_cilindra_tilpums", "2_cilindra_tilpums" un "virsmers"
 			//Sagatavojam mainigos
-				$debug =1;
+				$debug =0;
 				$balkaGarums = (floor($balkaGarums/10)/10);//apaļojam uz decimetriem un 
 				//saglabājam, lai atgriestu atpakaļ kāds bija
 				$tievgala_caurmers_mem = $tievgala_caurmers;
