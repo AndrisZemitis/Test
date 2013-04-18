@@ -166,9 +166,8 @@ while ($m = mysql_fetch_array($r))
 					//Aprēķins, ja pirmā cilindra tilpums ir neto tilpums / 2
 					//floor(($balkaNetoTilpums/2)*1000);//reizinam ar 1000, lai tiktu pie kubikdecimetriem
 					$otraCilindraNetoTilpums= round(($balkaNetoTilpums*1000 - $pirmaCilindraTilpums),0); //reizinam ar 1000, lai tiktu pie kubikdecimetriem
-					$virsmers = ($balkaBrutoTilpums - $balkaNetoTilpums)*1000;//reizinam ar 1000, lai tiktu pie kubikdecimetriem
+					$virsmers = (round($balkaBrutoTilpums*1000,0) - round($balkaNetoTilpums*1000,0));//reizinam ar 1000, lai tiktu pie kubikdecimetriem
 					//Paareekkinam virsmeeru uz kubikdecimetriem un noapallojam, lai nebuutu komati.
-					$virsmers = round($virsmers,0);
 					$tievgala_caurmers = $tievgala_caurmers_mem;
 					$sql_query = "insert into balkis (pavadzime, nelieto, datums_laiks, mind_pirms_red, garums, suga, skira, miza, skira_2, mind_pec_red, gar_pec_red, mind_miza, brakis, maxd_miza, kabata, tilpums, tilpums_scan, brakis2, import_type,import_id,1_cilindra_tilpums, 2_cilindra_tilpums, virsmera_tilpums) select $pavadzime, '', '".sqltime(convert_time2($m['ts']))."',                       ".$tievgala_caurmers.", gr, sg, ".$skira.", '', ".$skira2.",".$tievgala_caurmers."-rc*10, gr-(rg*10), 0, '$brakis', 0, '', 0, 0,'$brakis2','zbm',".$m['id'].",".$pirmaCilindraTilpums .",".$otraCilindraNetoTilpums.", $virsmers from fails_zbm_ui where id = ".$m['id'];
 					if($debug==1)
@@ -281,7 +280,7 @@ while ($m = mysql_fetch_array($r))
 						error_log("<p>Pārbaude: [Brutto - Netto1+Netto2+virsmers == 0]: ".$parbaude."</p>");
 						}
 			}
-		//error_log("Error", 3, "myPHP-error.log");
+		
 		mysql_query ($sql_query);
 		if($debug==1)
 		{

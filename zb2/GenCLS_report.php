@@ -2507,7 +2507,7 @@ function corrTrueDeffectCode($atskaite_num, $is_xml){
       break;
 
       default://Latekss,
-
+/*
         $braki['000']['LAT'] = 'Metāla ieslēgumi';
         $braki['001']['LAT'] = 'Stumbra formas vainas';
         $braki['002']['LAT'] = 'Saussāns';
@@ -2531,7 +2531,8 @@ function corrTrueDeffectCode($atskaite_num, $is_xml){
         $braki['401']['LAT'] = 'Zilējums';
         $braki['255']['LAT'] = '';
         $braki['256']['LAT'] = '';
-/*
+*/
+        // Šie kodi ir vajadzīgi kad Gita veido atskaiti
         $braki['000']['LAT'] = 'Par tievu';
         $braki['001']['LAT'] = 'Par garu';
         $braki['002']['LAT'] = 'Max resnākā vieta par lielu';
@@ -2554,7 +2555,7 @@ function corrTrueDeffectCode($atskaite_num, $is_xml){
         $braki['019']['LAT'] = 'Nav definēts';
         $braki['255']['LAT'] = '';
         $braki['256']['LAT'] = '';
-*/
+
 
       break;
     }
